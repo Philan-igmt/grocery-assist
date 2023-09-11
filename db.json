@@ -1,0 +1,40 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "shoprite",
+      "storeId":4567890,
+      "location": "bellville"
+    }
+  ],
+  "orders":[
+    {
+      "bookId":"2023-09-25",
+      "groceryItems": [
+        {
+          "id": 1,
+          "imageURL":"https://material.angular.io/assets/img/examples/shiba2.jpg ",
+          "name": "snacks",
+          "itemId": 122,
+          "priceEstimate":123,
+          "actualPrice":23,
+          "diffInPrice":120,
+          "storeId": 4567890,
+          "quantity":1
+    
+        }
+      ]
+    }
+  ],
+  "fincancialCosts": [
+    {
+    "bookId":"2023-09-25",
+    "name": "typicode",
+    "totalEstimateAmount":50.49,
+    "totalActualAmount":50.49,
+    "inplanned":70
+  }
+  ]
+    
+  
+}
